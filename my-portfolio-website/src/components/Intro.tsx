@@ -10,26 +10,24 @@ export const Intro = () => {
           distance: '200px',
           easing: 'ease-out',
           origin: 'top',
-          delay: 500,
           reset: true, 
         });
     }, []);
 
     useEffect(() => {
         ScrollReveal().reveal('.intro2', {
-          duration: 2100,
-          distance: '300px',
+          duration: 2000,
+          distance: '200px',
           easing: 'ease-out',
           origin: 'bottom',
-          delay: 500,
           reset: true, 
         });
     }, []);
 
     useEffect(() => {
         ScrollReveal().reveal('.intro3', {
-          duration: 2000,
-          distance: '200px',
+          duration: 1800,
+          distance: '150px',
           easing: 'ease-out',
           origin: 'right',
           delay: 500,
