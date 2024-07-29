@@ -9,8 +9,7 @@ export const Intro = () => {
           duration: 2000,
           distance: '200px',
           easing: 'ease-out',
-          origin: 'top',
-          reset: true, 
+          origin: 'top', 
         });
     }, []);
 
@@ -20,7 +19,6 @@ export const Intro = () => {
           distance: '200px',
           easing: 'ease-out',
           origin: 'bottom',
-          reset: true, 
         });
     }, []);
 
@@ -31,7 +29,6 @@ export const Intro = () => {
           easing: 'ease-out',
           origin: 'right',
           delay: 500,
-          reset: true, 
         });
     }, []);
 
