@@ -27,14 +27,14 @@ export const About = () => {
 
 
   return (
-    <div className='w-4/5 p-4 h-screen flex items-top justify-center mx-auto my-auto mt-5 space-x-28'>
+    <div className='w-4/5 p-4 h-screen flex items-top justify-center mx-auto space-x-40'>
       <div className='about1 flex-1 relative flex flex-col items-center'>
-        <span style={{ height: '66.6%', width: '66.6%', marginTop: '50px', marginLeft: '110px', borderRadius: '8px', border: "18px solid #10b981" }}></span>
-        <img src='/pictures/image1.jpg' alt="" className='absolute object-cover border-2 border-gray-900 h-2/3 w-2/3 rounded-lg transform translate-x-0 translate-y-0'  />
+        <span style={{ position: 'absolute', height: '80%', width: '80%', marginTop: '50px', marginLeft: '100px', borderRadius: '12px', border: "20px solid #10b981" }}></span>
+        <img src='/pictures/image1.jpg' alt="" className='absolute object-cover border-2 border-gray-900 h-4/5 w-4/5 rounded-xl transform translate-x-0 translate-y-0'  />
       </div>
       <div className='about2 flex-1 flex flex-col align-top justify-start translate-y-20'>
         <h1 className='mb-6 text-4xl font-semibold text-emerald-50'>ABOUT ME</h1>
-        <p className='overflow-hidden break-words mb-10 mx-auto text-gray-400 mr-24 text-xl leading-9 '>
+        <p className='overflow-hidden break-words mb-10 mx-auto text-gray-400 mr-20 text-xl leading-9 '>
           I am a software developer with a background in accounting and a strong passion for 
           software development and engineering. I have experience in designing, coding, and maintaining top-class, 
           user-friendly web applications to provide modern solutions to complex problems. I am seeking a software 
