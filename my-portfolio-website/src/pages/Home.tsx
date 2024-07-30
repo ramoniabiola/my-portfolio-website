@@ -3,6 +3,7 @@ import { Navbar } from '../components/Navbar'
 import { Intro } from '../components/Intro'
 import { About } from '../components/About'
 import { Portfolio } from '../components/Portfolio'
+import { Services } from '../components/Services'
 
 export const Home = () => {
     return (
@@ -11,6 +12,7 @@ export const Home = () => {
             <Intro />
             <About />
             <Portfolio />
+            <Services />
         </div>
     )
 }
