@@ -43,7 +43,7 @@ export const Services = () => {
                         </div>
                         <p className='break-words mb-4 text-gray-400 text-lg leading-8'>
                             Building and maintaining server-side logic using a language like JavaScript(Node.js).
-                            Developing and managing databases, which includes designing database schemas, 
+                            Developing and managing databases which includes designing database schemas, 
                             writing queries, and ensuring data integrity and security also integrating 
                             with third-party services and APIs to extend the functionality of the application.
                         </p>
