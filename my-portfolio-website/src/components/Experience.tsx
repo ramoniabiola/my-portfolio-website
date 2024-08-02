@@ -2,9 +2,10 @@ import React from "react";
 
 
 export const Experience = () => {
+    
     return (
-        <div className='w-4/5 h-auto flex flex-col items-center justify-center mx-auto my-auto'>
-            <h1 className='text-center text-4xl font-semibold text-emerald-50 mb-16'>Experience</h1>
+        <div className='w-4/5 h-auto flex flex-col items-center justify-center mx-auto my-auto mb-40'>
+            <h1 className='text-center text-4xl font-semibold text-emerald-50 mb-16'>EXPERIENCE</h1>
             <div className='flex items-top justify-center'>
                 <div className='flex flex-wrap items-top justify-start'>
                     <div className='relative flex flex-col items-center justify-center px-20 py-20 w-1/4 mb-24'>
