@@ -6,31 +6,34 @@ import ScrollReveal from 'scrollreveal';
 export const Intro = () => {
 
   useEffect(() => {
-      ScrollReveal().reveal('.intro1', {
-        duration: 2000,
-        distance: '200px',
-        easing: 'ease-out',
-        origin: 'top', 
-      });
+    ScrollReveal().reveal('.intro1', {
+      duration: 2800,
+      distance: '100px',
+      origin: 'top',
+      reset: true,
+      delay: 300,
+    });
   }, []);
 
   useEffect(() => {
       ScrollReveal().reveal('.intro2', {
-        duration: 2000,
-        distance: '200px',
-        easing: 'ease-out',
+        duration: 2800,
+        distance: '100px',
         origin: 'bottom',
+        interval: 100,
+        reset: true,
+        delay: 300,
       });
   }, []);
 
   useEffect(() => {
-      ScrollReveal().reveal('.intro3', {
-        duration: 1800,
-        distance: '150px',
-        easing: 'ease-out',
-        origin: 'right',
-        delay: 500,
-      });
+    ScrollReveal().reveal('.intro3', {
+      duration: 2800,
+      distance: '100px',
+      origin: 'right',
+      reset: true,
+      delay: 300,
+    });
   }, []);
 
 

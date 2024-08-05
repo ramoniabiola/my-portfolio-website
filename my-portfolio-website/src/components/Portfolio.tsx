@@ -7,21 +7,14 @@ export const Portfolio = () => {
 
     useEffect(() => {
         ScrollReveal().reveal('.portfolio1', {
-          duration: 1500,
-          distance: '100px',
-          easing: 'ease-out',
-          origin: 'bottom', 
+            duration: 2800,
+            distance: '100px',
+            origin: 'bottom',
+            reset: true,
+            delay: 300,
         });
     }, []);
 
-    useEffect(() => {
-        ScrollReveal().reveal('.portfolio2', {
-          duration: 1500,
-          distance: '100px',
-          easing: 'ease-out',
-          origin: 'bottom', 
-        });
-    }, []);
 
     return (
         <div className='w-4/5 h-auto flex flex-col items-top justify-center mx-auto my-auto'>
@@ -48,7 +41,7 @@ export const Portfolio = () => {
                         <img src="/pictures/image2.jpg" alt="" className='absolute w-full h-[30rem] object-fill rounded-xl transform translate-x-0 translate-y-0' />
                     </div>
                 </div>
-                <div className='portfolio2 flex items-top justify-center mt-10 mb-48 space-x-48'>
+                <div className='portfolio1 flex items-top justify-center mt-10 mb-48 space-x-48'>
                     <div className='flex-1 relative flex flex-col items-center ml-10'>
                         <span style={{ position: 'absolute', marginTop: '40px', marginRight: '80px', height: '30rem', width: '100%', borderRadius: '12px', border: "20px solid #10b981" }} ></span>
                         <img src="/pictures/image3.jpeg" alt="" className='absolute w-full h-[30rem] object-fill rounded-xl transform translate-x-0 translate-y-0' />

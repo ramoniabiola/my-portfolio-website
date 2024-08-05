@@ -1,15 +1,18 @@
-import React from "react";
+import React from 'react';
+
+
 
 
 export const Experience = () => {
+
     
     return (
         <div className='w-4/5 h-auto flex flex-col items-center justify-center mx-auto my-auto mb-40'>
             <h1 className='text-center text-4xl font-semibold text-emerald-50 mb-16'>EXPERIENCE</h1>
             <div className='flex items-top justify-center'>
-                <div className='flex flex-wrap items-top justify-start'>
+                <div className='experience1 flex flex-wrap items-top justify-start'>
                     <div className='relative flex flex-col items-center justify-center px-20 py-20 w-1/4 mb-24'>
-                        <img src="https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo_01-768x530.png" alt="" className='w-24 h-24 absolute' />
+                        <img src="https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo_01-768x530.png " alt="" className='w-24 h-24 absolute' />
                         <h2 className=' absolute text-2xl font-semibold text-gray-400 mt-44'>MongoDB</h2>    
                     </div>
                     <div className='relative flex flex-col items-center justify-center px-20 py-20 w-1/4 mb-24'>

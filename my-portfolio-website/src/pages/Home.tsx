@@ -9,7 +9,7 @@ import { Contact } from '../components/Contact'
 
 export const Home = () => {
     return (
-        <div className="w-full h-full overflow-hidden bg-gray-950">
+        <div className="w-full h-full overflow-hidden bg-gray-950 scroll-smooth">
             <Navbar />
             <Intro />
             <About />

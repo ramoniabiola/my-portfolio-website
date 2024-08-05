@@ -7,10 +7,11 @@ export const Services = () => {
 
     useEffect(() => {
         ScrollReveal().reveal('.services1', {
-          duration: 1500,
-          distance: '100px',
-          easing: 'ease-out',
-          origin: 'bottom', 
+            duration: 2800,
+            distance: '100px',
+            origin: 'bottom',
+            reset: true,
+            delay: 300,
         });
     }, []);
 

@@ -5,20 +5,23 @@ export const About = () => {
 
   useEffect(() => {
     ScrollReveal().reveal('.about1', {
-      duration: 1500,
+      duration: 2800,
       distance: '100px',
-      easing: 'ease-out',
       origin: 'left',
+      reset: true,
+      delay: 300,
     });
   }, []);
 
 
   useEffect(() => {
     ScrollReveal().reveal('.about2', {
-      duration: 1500,
+      duration: 2800,
       distance: '100px',
-      easing: 'ease-out',
-      origin: 'right', 
+      origin: 'right',
+      interval: 100,
+      reset: true,
+      delay: 300,
     });
   }, []);
 
