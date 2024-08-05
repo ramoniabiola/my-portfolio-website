@@ -10,7 +10,6 @@ export const Portfolio = () => {
             duration: 2800,
             distance: '100px',
             origin: 'bottom',
-            reset: true,
             delay: 300,
         });
     }, []);
@@ -56,8 +55,8 @@ export const Portfolio = () => {
                            admin can log into the web app. The app serves as where products displayed on the 
                            e-commerce platform are being registered and uploaded, tracks the monthly user numbers, tracks the activeness 
                            of each user, monitors user orders, monitors the monthly sales revenue of all product and each individual 
-                           product and a whole lot more comprehensive features. MERN is deployed as the technology stack to develop this 
-                           project with css for styling, materialUI chart, nivo and recharts for data graphical visualization.
+                           product and a whole lot more comprehensive features. MERN is deployed as the technological stack to develop this 
+                           project with css for styling, materialUI chart, nivo and recharts for graphical data visualization.
                        </p>
                        <div className='flex items-center justify-start'>
                            <ArrowForward style={{ color: 'white', fontSize: '16px'}} />

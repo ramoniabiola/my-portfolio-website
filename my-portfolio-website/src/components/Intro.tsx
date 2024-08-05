@@ -10,7 +10,6 @@ export const Intro = () => {
       duration: 2800,
       distance: '100px',
       origin: 'top',
-      reset: true,
       delay: 300,
     });
   }, []);
@@ -21,7 +20,6 @@ export const Intro = () => {
         distance: '100px',
         origin: 'bottom',
         interval: 100,
-        reset: true,
         delay: 300,
       });
   }, []);
@@ -31,7 +29,6 @@ export const Intro = () => {
       duration: 2800,
       distance: '100px',
       origin: 'right',
-      reset: true,
       delay: 300,
     });
   }, []);

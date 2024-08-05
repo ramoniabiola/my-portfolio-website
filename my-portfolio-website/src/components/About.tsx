@@ -8,7 +8,6 @@ export const About = () => {
       duration: 2800,
       distance: '100px',
       origin: 'left',
-      reset: true,
       delay: 300,
     });
   }, []);
@@ -20,7 +19,6 @@ export const About = () => {
       distance: '100px',
       origin: 'right',
       interval: 100,
-      reset: true,
       delay: 300,
     });
   }, []);

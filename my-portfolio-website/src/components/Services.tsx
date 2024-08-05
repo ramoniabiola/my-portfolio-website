@@ -10,7 +10,6 @@ export const Services = () => {
             duration: 2800,
             distance: '100px',
             origin: 'bottom',
-            reset: true,
             delay: 300,
         });
     }, []);

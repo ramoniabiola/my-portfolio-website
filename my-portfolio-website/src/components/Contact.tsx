@@ -12,7 +12,6 @@ export const Contact = () => {
             distance: '100px',
             easing: 'ease-in-out',
             delay: 300,
-            reset: true,
         });
     }, []);
 
@@ -23,7 +22,6 @@ export const Contact = () => {
             easing: 'ease-in-out',
             delay: 300,
             interval: 100,
-            reset: true,
         });
     }, []);
 
