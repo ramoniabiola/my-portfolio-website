@@ -64,7 +64,7 @@ export const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <div className='contact2 w-full flex flex-col items-center justify-center space-y-6 mt-20'>
+                <div className='contact2 w-full flex flex-col items-center justify-center space-y-6'>
                     <hr className='border-gray-400 border-1 w-4/5' />
                     <div className='w-4/5 flex items-center justify-between'>
                         <h1 className="text-gray-200 text-4xl font-bold font-mono cursor-pointer">

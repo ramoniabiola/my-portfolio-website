@@ -51,7 +51,7 @@ export const Portfolio = () => {
                        <p className='break-words mb-4 text-gray-400 text-lg leading-8 '>
                            Designed an administration dashboard for all round management of users and fashion
                            products for the fashion e-commerce platform developed. This web app is restricted to be 
-                           accessed only by the administration team using a server-side middleware to ensure only desgnated
+                           accessed only by the administration team using a server-side middleware to ensure only designated
                            admin can log into the web app. The app serves as where products displayed on the 
                            e-commerce platform are being registered and uploaded, tracks the monthly user numbers, tracks the activeness 
                            of each user, monitors user orders, monitors the monthly sales revenue of all product and each individual 
