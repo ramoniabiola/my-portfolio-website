@@ -66,7 +66,7 @@ export const Portfolio = () => {
                 </div>
             </div>
             <div className='flex justify-center mb-36'>  
-                <button className=' bg-gradient-to-r from-emerald-500 to-emerald-800 px-20 py-6 text-xl text-white tracking-wide font-semibold rounded-md cursor-pointer'>View all</button>
+                <button className='bg-gradient-to-r from-emerald-500 to-emerald-800 px-20 py-6 text-xl text-white tracking-wide font-semibold rounded-md cursor-pointer'>View all</button>
             </div> 
         </div>
     )
