@@ -37,13 +37,13 @@ export const Portfolio = () => {
                     </div>
                     <div className='flex-1 relative flex flex-col items-center ml-20'>
                         <span style={{ position: 'absolute', marginTop: '40px', marginRight: '80px', height: '30rem', width: '100%', borderRadius: '12px', border: "20px solid #10b981" }} ></span>
-                        <img src="/pictures/image2.jpg" alt="" className='absolute w-full h-[30rem] object-fill rounded-xl transform translate-x-0 translate-y-0' />
+                        <img src={`${process.env.PUBLIC_URL}/images/image2.jpg`} alt="" className='absolute w-full h-[30rem] object-fill rounded-xl transform translate-x-0 translate-y-0' />
                     </div>
                 </div>
                 <div className='portfolio1 flex items-top justify-center mt-10 mb-48 space-x-48'>
                     <div className='flex-1 relative flex flex-col items-center ml-10'>
                         <span style={{ position: 'absolute', marginTop: '40px', marginRight: '80px', height: '30rem', width: '100%', borderRadius: '12px', border: "20px solid #10b981" }} ></span>
-                        <img src="/pictures/image3.jpeg" alt="" className='absolute w-full h-[30rem] object-fill rounded-xl transform translate-x-0 translate-y-0' />
+                        <img src={`${process.env.PUBLIC_URL}/images/image3.jpeg`} alt="" className='absolute w-full h-[30rem] object-fill rounded-xl transform translate-x-0 translate-y-0' />
                     </div>
                     <div className='flex-1 flex flex-col align-top justify-start translate-y-4'>
                        <h1 className='mb-6 text-4xl font-medium text-emerald-500 tracking-normal'>PROJECT 2</h1>

@@ -29,7 +29,7 @@ export const About = () => {
     <div className='w-4/5 p-4 h-screen flex items-top justify-center mx-auto space-x-40'>
       <div className='about1 flex-1 relative flex flex-col items-center'>
         <span style={{ position: 'absolute', height: '75%', width: '75%', marginTop: '50px', marginLeft: '100px', borderRadius: '12px', border: "20px solid #10b981" }}></span>
-        <img src='/pictures/image1.jpg' alt="" className='absolute object-cover border-2 border-gray-900 h-3/4 w-3/4 rounded-xl transform translate-x-0 translate-y-0'  />
+        <img src={`${process.env.PUBLIC_URL}/images/image1.jpg`} alt='' className='absolute object-cover border-2 border-gray-900 h-3/4 w-3/4 rounded-xl transform translate-x-0 translate-y-0'  />
       </div>
       <div className='about2 flex-1 flex flex-col align-top justify-start translate-y-20'>
         <h1 className='mb-6 text-4xl font-semibold text-emerald-50'>ABOUT ME</h1>
