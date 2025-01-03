@@ -28,7 +28,7 @@ export const Navbar = () => {
             )}
 
             <ul 
-                className={`fixed top-0 right-0 w-3/4 h-full font-bold text-xl flex flex-col items-start gap-6 bg-gray-900 text-white cursor-pointer  transition-transform duration-300 ease-in-out transform md:static md:w-auto md:h-auto md:bg-transparent md:text-gray-400 md:mr-24 md:flex-row md:items-center md:gap-8 p-8 md:p-0 ${
+                className={`fixed top-0 right-0 w-3/4 h-full font-extrabold text-xl flex flex-col items-start gap-6 bg-gray-900 text-gray-200 cursor-pointer transition-transform duration-300 ease-in-out transform md:static md:w-auto md:h-auto md:bg-transparent md:text-gray-400 md:mr-24 md:flex-row md:items-center md:gap-8 p-8 md:p-0 ${
                     isNavOpen ? "translate-x-0 z-20"
                     : "translate-x-full md:translate-x-0"
                 }`}
@@ -37,7 +37,7 @@ export const Navbar = () => {
                 {isNavOpen && (
                     <div className="self-end mb-4 md:hidden">
                         <Close
-                            className="text-gray-300 cursor-pointer p-[6px] border-2 border-gray-700 rounded-full"
+                            className="text-slate-400 cursor-pointer p-[6px] border-2 border-slate-700 rounded-full"
                             onClick={() => setIsNavOpen(false)}
                             style={{ fontSize: "36px" }}
                         />

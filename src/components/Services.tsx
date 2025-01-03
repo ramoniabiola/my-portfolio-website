@@ -17,11 +17,11 @@ export const Services = () => {
 
 
     return (
-        <div className='w-4/5 h-auto flex flex-col items-top justify-center mx-auto my-auto'>
+        <div className='w-4/5 h-auto mt-96 md:mt-32 flex flex-col items-top justify-center mx-auto my-auto'>
             <h1 className='text-center text-4xl font-semibold text-emerald-50 mb-20'>SERVICES</h1>
             <div className='flex items-top flex-col justify-center'>
-                <div className='services1 flex items-top justify-center mt-10 mb-56 space-x-40'>
-                    <div className='flex-1 max-w-xl rounded-xl shadow-lg p-6 bg-inherit border-8 border-double border-emerald-500  text-white'
+                <div className='services1 flex flex-col md:flex-row items-top justify-center mt-10 mb-56 space-y-40 md:space-y-0 md:space-x-40'>
+                    <div className='md:flex-1 max-w-xl rounded-xl shadow-lg p-6 bg-inherit border-8 border-double border-emerald-500  text-white'
                         style={{ boxShadow: '0 0 50px 40px rgba(52, 211, 153, 0.1)' }}>
                         <div className='flex items-center justify-start mt-4 mb-10'>
                             <span className='p-4 bg-white rounded-full'><CodeOffRounded style={{ color: '#34d399', fontSize: '42px'}} /></span>
@@ -35,7 +35,7 @@ export const Services = () => {
                             interaction.
                         </p>
                     </div>
-                    <div className='flex-1 max-w-xl rounded-xl p-6 bg-inherit border-8 border-emerald-500 border-double text-white'
+                    <div className='md:flex-1 max-w-xl rounded-xl p-6 bg-inherit border-8 border-emerald-500 border-double text-white'
                         style={{ boxShadow: '0 0 50px 40px rgba(52, 211, 153, 0.1)' }}>
                         <div className='flex items-center justify-start mt-4 mb-10' >
                             <span className='p-4 bg-white rounded-full'><DesktopMacSharp style={{ color: '#34d399', fontSize: '42px'}} /></span>
