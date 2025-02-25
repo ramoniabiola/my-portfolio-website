@@ -16,7 +16,7 @@
  
 
         return (
-            <div className='w-4/5 p-4 mt-20 h-full flex flex-col items-top justify-center mx-auto my-auto'>
+            <div className='w-11/12 md:w-4/5 p-4 mt-20 h-full flex flex-col items-top justify-center mx-auto my-auto'>
                 <h1 className='text-center text-4xl font-semibold text-emerald-50 mb-1 md:mb-20'>PORTFOLIO</h1>
                 <div className='w-full h-full flex items-top flex-col justify-center'>
                     <div className='portfolio1 flex flex-col md:flex-row items-top justify-center mt-6 md:mt-10 mb-[20rem] md:space-x-40 space-y-[12rem] md:space-y-0'>

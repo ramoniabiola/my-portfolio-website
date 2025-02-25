@@ -37,8 +37,8 @@ export const Intro = () => {
   return (
     <div className="w-4/5 h-screen flex items-center justify-center mx-auto">
       <div className="intro1 flex-1 flex flex-col items-start  justify-center transform -translate-y-16">
-        <h1 className="text-7xl text-emerald-100 font-bold mb-4">Hi,<br /> I'm Abiola,<br /> Software Developer</h1>
-        <h3 className="intro2 text-xl text-gray-500 tracking-widest mt-2">Frontend Developer / Backend Developer</h3>
+        <h1 className="text-6xl md:text-7xl text-emerald-100 font-bold mb-4">Hi,<br /> I'm Abiola,<br /> Software Developer</h1>
+        <h3 className="intro2 text-base md:text-xl text-gray-500 tracking-widest mt-2">Frontend Developer / Backend Developer</h3>
       </div>
       <div className='intro3 hidden md:flex-1 md:flex md:items-center md:justify-center md:transform md:-translate-y-10'>
         <img 

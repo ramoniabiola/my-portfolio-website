@@ -22,7 +22,7 @@ export const About = () => {
   }, []);
 
   return (
-    <div className="w-4/5 p-4 h-full md:h-screen flex flex-col md:flex-row justify-center mx-auto md:space-x-40 space-y-[36rem] md:space-y-0">
+    <div className="w-11/12 md:w-4/5 p-4 h-full md:h-screen flex flex-col md:flex-row justify-center mx-auto md:space-x-40 space-y-[36rem] md:space-y-0">
       {/* Image Section */}
       <div className="about1 md:flex-1 relative flex flex-col items-center mr-8">
         <span className="absolute h-[450px] w-full md:h-3/4 md:w-3/4 mt-[35px] ml-[70px] md:mt-[50px] md:ml-[100px] rounded-xl border-[20px] md:border-[24px] border-solid border-emerald-500 border-y-emerald-700"></span>

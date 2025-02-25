@@ -6,19 +6,18 @@ export const Navbar = () => {
 
     return (
         <nav className="w-full flex items-center justify-between mt-8 relative">
-            <h1 className="md:ml-32 ml-10 text-emerald-500 text-4xl font-bold font-mono cursor-pointer">
-                Ram<span className="text-4xl font-bold font-sans text-emerald-200">o</span>ni
+            <h1 className="md:ml-32 ml-5 text-emerald-500 text-2xl md:text-4xl font-bold font-mono cursor-pointer">
+                Ram<span className="text-2xl md:text-4xl font-bold font-sans text-emerald-200">o</span>ni
             </h1>
 
             {/* Hamburger Menu Icon (Visible on Mobile Only) */}
-            <div className="md:hidden mr-10 mt-1">
+            <div className="md:hidden mr-5 mt-1">
                 <MenuOutlined
                     className="text-gray-300 cursor-pointer"
                     onClick={() => setIsNavOpen(true)}
-                    style={{ fontSize: "36px" }}
+                    style={{ fontSize: "28px" }}
                 />
             </div>
-
             {/* Overlay (Visible on Mobile Only) */}
             {isNavOpen && (
                 <div
@@ -37,9 +36,9 @@ export const Navbar = () => {
                 {isNavOpen && (
                     <div className="self-end mb-4 md:hidden">
                         <Close
-                            className="text-slate-400 cursor-pointer p-[6px] border-2 border-slate-700 rounded-full"
+                            className="text-slate-400 cursor-pointer p-[4px] border-2 border-slate-700 rounded-full"
                             onClick={() => setIsNavOpen(false)}
-                            style={{ fontSize: "36px" }}
+                            style={{ fontSize: "32px" }}
                         />
                     </div>
                 )}
